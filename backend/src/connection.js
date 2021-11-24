@@ -4,7 +4,8 @@ const mongoose = require('mongoose');
 const nameOfDB = 'storedb';
 
 //url of the database
-const database_url = `mongodb://localhost:27017/${nameOfDB}`;
+//const database_url = `mongodb://localhost:27017/${nameOfDB}`;
+const database_url = 'mongodb://localhost:27017/storedb';
 
 const database_options = {
     // Added flag to allow users to fall back to the old deprecated parser, if they find a bug in the new parser

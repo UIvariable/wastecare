@@ -37,6 +37,7 @@ exports.add = function(req, res) {
 
     product.productName = req.body.productName;
     product.productDescription = req.body.productDescription;
+    product.productCategory = req.body.productCategory;
     product.productCondition = req.body.productCondition;
     product.pickupAddress.id = req.body.pickupAddressId;
     product.pickupAddress.name = req.body.pickupAddressName;
@@ -120,6 +121,7 @@ exports.update = function(req, res) {
     
         product.productName = req.body.productName;
         product.productDescription = req.body.productDescription;
+        product.productCategory = req.body.productCategory;
         product.productCondition = req.body.productCondition;
         product.pickupAddress.id = req.body.pickupAddressId;
         product.pickupAddress.name = req.body.pickupAddressName;

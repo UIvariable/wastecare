@@ -7,6 +7,7 @@ let productSchema = mongoose.Schema({
     },
     productDescription: String,
     productCondition: String,
+    productCategory: String,
     pickupAddress: {
         id: {
           type: String,
